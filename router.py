@@ -3,7 +3,7 @@ from fastapi.encoders import jsonable_encoder
 from starlette.responses import JSONResponse
 from sqlalchemy.sql import func
 
-from config.database import session, engine, base
+from config.database import session
 from models.vinyls import Vinyls as VinylsModel
 from request import VinylRequest
 from typing import List
